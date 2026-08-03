@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <title>Five Fox Creative Dashboard — Creative &amp; organic analytics for TikTok, Meta and Google</title>
+  <meta name="description" content="The Five Fox Creative Dashboard is a performance-analytics tool by SIA Five Fox Media. With a creator's consent it reads their own TikTok profile and video insights and presents them alongside Meta and Google data as clear creative reporting.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <a href="./"><img src="logo.png" alt="Five Fox Media"></a>
+    <nav>
+      <a href="./">Product</a>
+      <a href="privacy/">Privacy</a>
+      <a href="terms/">Terms</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <p class="kicker">A product of SIA Five Fox Media</p>
+  <h1>Five Fox Creative Dashboard</h1>
+
+  <p>The Five Fox Creative Dashboard is a performance-analytics application used by
+  SIA Five Fox Media and the clients it works with. It brings a brand&rsquo;s paid and
+  organic marketing performance into one place &mdash; across TikTok, Meta (Facebook and
+  Instagram) and Google &mdash; so teams can see which creatives and posts perform best
+  and report on them clearly.</p>
+
+  <h2>How the TikTok integration works</h2>
+  <p>A TikTok account owner (or an agency team member acting on that account&rsquo;s behalf)
+  chooses to connect their account using TikTok&rsquo;s official Login Kit. TikTok shows the
+  standard consent screen, and access is granted only after the account owner approves it.
+  The dashboard then reads that account&rsquo;s <strong>own</strong> profile information and
+  <strong>own</strong> video insights and displays them back to the account owner and the
+  team managing the account. The connection can be revoked at any time, from within TikTok
+  or by disconnecting the account in the dashboard.</p>
+  <p>The dashboard is read-only with respect to TikTok: it never posts, comments, messages,
+  follows, or changes anything on the connected account. It only retrieves analytics for
+  display.</p>
+
+  <h2>Data and scopes we request</h2>
+  <table>
+    <thead>
+      <tr><th>Scope</th><th>How it is used</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>user.info.profile</code></td>
+        <td>Shows the connected account&rsquo;s public profile &mdash; display name, avatar, bio and
+        profile link &mdash; so reports are clearly labelled with the right account.</td>
+      </tr>
+      <tr>
+        <td><code>user.info.stats</code></td>
+        <td>Displays the account&rsquo;s own follower, following, likes and video counts to track
+        audience growth over time.</td>
+      </tr>
+      <tr>
+        <td><code>video.list</code></td>
+        <td>Lists the account&rsquo;s own public videos and their engagement metrics (views, likes,
+        comments, shares) to produce per-post creative performance reporting.</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>We request only what is needed to produce analytics for a connected account. We do not
+  sell personal data, and we do not use it for advertising targeting or share it with third
+  parties except the infrastructure providers that run the service on our behalf. Full
+  details are in our <a class="body-link" href="privacy/">Privacy Policy</a>.</p>
+
+  <h2>Who it is for</h2>
+  <p>The Creative Dashboard is a private, internal tool for SIA Five Fox Media and the brands
+  it provides marketing services to. Access requires an account, and each connected TikTok
+  profile is only visible to the account owner and the Five Fox Media team responsible for it.</p>
+
+  <h2>Contact</h2>
+  <p>SIA Five Fox Media, registered in Latvia. Questions about the application, your data, or
+  access requests: <a class="body-link" href="mailto:martins@fivefox.media">martins@fivefox.media</a>.</p>
+
+  <p><a class="body-link" href="privacy/">Privacy Policy</a> &nbsp;&middot;&nbsp;
+     <a class="body-link" href="terms/">Terms of Service</a></p>
+</main>
+
+<footer>
+  <div class="bar">
+    <span>&copy; 2026 SIA Five Fox Media</span>
+    <span>
+      <a href="./">Product</a>
+      <a href="privacy/">Privacy Policy</a>
+      <a href="terms/">Terms of Service</a>
+      <a href="mailto:martins@fivefox.media">Contact</a>
+    </span>
+  </div>
+</footer>
+
+</body>
+</html>
